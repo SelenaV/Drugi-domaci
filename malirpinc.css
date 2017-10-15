@@ -1,0 +1,48 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(MonolineScriptMTStd.otf);
+}
+
+h1 {
+    font-family: myFirstFont;
+    text-align: center;
+    color:#7b9fd8;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.center-justified {
+	text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#first-word{
+	text-indent: 1.5em;
+
+}
+.center {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.pagenumber {
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+	width: 500px;
+}
+.right {
+	float: right;
+}
+.pagenumber p {
+	font-family: myFirstFont;
+	color: gray;
+	float: left;
+}
+.pagenumber img {
+	float: left;
+}
+
+
